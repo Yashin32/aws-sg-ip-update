@@ -1,0 +1,36 @@
+{
+  "name": "aws-sg-ip-update",
+  "version": "1.0.0",
+  "description": "Updates AWS EC2 Security Group with your current IP address",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yashin32/aws-sg-ip-update.git"
+  },
+  "author": "Roman Yashin <yashin032@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yashin32/aws-sg-ip-update/issues"
+  },
+  "homepage": "https://github.com/Yashin32/aws-sg-ip-update#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.188.0",
+    "colors": "^1.1.2",
+    "commander": "^2.13.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.5.0",
+    "eslint-plugin-react": "^7.6.0",
+    "prettier": "^1.10.2"
+  }
+}
